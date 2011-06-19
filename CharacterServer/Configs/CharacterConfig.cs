@@ -29,6 +29,12 @@ namespace CharacterServer
         }
     }
 
+    public class LogConfInfo
+    {
+    public string LogsDir = "Logs";    
+    public string LogFile = "Characters.log";
+    }
+
     [aConfigAttributes("Configs/Characters.xml")]
     public class CharacterConfig : aConfig
     {
@@ -41,6 +47,8 @@ namespace CharacterServer
         public string RpcKey = "password";
 
         public bool UseCertificate = false;
+
+        public LogConfInfo LogInfo = new LogConfInfo();
 
         public int ShutDownTimer = 2000;
 

@@ -17,12 +17,66 @@ namespace Shared
             InitInstance(Config);
         }
 
-        static public bool InitLog(string LogConf, string PrefileName)
+        static public bool SetLogLevel(string type, bool value)
         {
+            switch (type.ToLower())
+             {
+                 case "tcp":
+                     _config.Info.Tcp = value;
+                     break;
+                 case "debug":
+                     _config.Info.Debug = value;
+                     break;
+                 case "dump":
+                     _config.Info.Dump = value;
+                     break;
+                 case "notice":
+                     _config.Info.Notice = value;
+                     break;
+                 case "error":
+                     _config.Info.Error = value;
+                     break;
+                 case "info":
+                     _config.Info.Info = value;
+                     break;
+                 case "successs":
+                     _config.Info.Successs = value;
+                     break;
+                 default:
+                     return false;
+             }
+             return true;
+         }
+ 
+         static public bool GetLogLevel(string type)
+         {
+             switch (type.ToLower())
+             {
+                 case "tcp":
+                     return _config.Info.Tcp;
+                 case "debug":
+                     return _config.Info.Debug;
+                 case "dump":
+                     return _config.Info.Dump;
+                 case "notice":
+                     return _config.Info.Notice;
+                case "error":
+                     return _config.Info.Error;
+                 case "info":
+                     return _config.Info.Info;
+                 case "successs":
+                     return _config.Info.Successs;
+             }
+             return false;
+         }
+ 
+         static public bool InitLog(string LogConf, string LogsDir, string fileName)
+         {
             try
             {
                 LogConfig Conf = new LogConfig(0);
-                Conf.PreFileName = PrefileName;
+                Conf.FileName = fileName;
+                Conf.LogFolder = LogsDir;
 
                 if (LogConf.Length > 0)
                     Conf.LoadInfoFromFile(LogConf);
@@ -46,6 +100,9 @@ namespace Shared
                 if (Config == null)
                     Config = new LogConfig();
 
+                if (!Config.LogFolder.StartsWith("/"))
+                    Config.LogFolder = "/" + Config.LogFolder;
+
                 string FileDir = Directory.GetCurrentDirectory() + Config.LogFolder;
                 string BackDir = Directory.GetCurrentDirectory() + Config.LogFolder + "/Backup";
 
@@ -59,8 +116,8 @@ namespace Shared
 
                 }
 
-                FileDir += "/" + Config.PreFileName + Config.FileName;
-                BackDir += "/" + Config.PreFileName + "." + DateTime.Now.Hour + "h." + DateTime.Now.Minute + "m." + DateTime.Now.Second + "s" + Config.FileName;
+                FileDir += "/" + Config.FileName;
+                BackDir += "/" + Config.FileName + "." + DateTime.Now.Hour + "h." + DateTime.Now.Minute + "m." + DateTime.Now.Second + "s";
 
                 if (DumpFile == null)
                 {

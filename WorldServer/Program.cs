@@ -28,10 +28,6 @@ namespace WorldServer
             Log.Texte("", "http://siennacore.com", ConsoleColor.Blue);
             Log.Texte("", "-------------------------------", ConsoleColor.DarkBlue);
 
-            // Loading log level from file
-            if (!Log.InitLog("Configs/World.log", "World"))
-                WaitAndExit();
-
             // Loading all configs files
             ConfigMgr.LoadConfigs();
             Config = ConfigMgr.GetConfig<WorldConfig>();

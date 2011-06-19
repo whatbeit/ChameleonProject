@@ -22,11 +22,10 @@ namespace Shared
     public class LogConfig
     {
         public LogInfo Info = new LogInfo();
-        public int _level=1;
+        public int _level = 4;
 
-        public string PreFileName = "";
-        public string FileName = "Log.txt";
-        public string LogFolder = "/Logs";
+        public string FileName = "";
+        public string LogFolder = "";
 
         public int Level
         {

@@ -29,13 +29,14 @@ namespace CharacterServer
             Log.Texte("", "-------------------------------", ConsoleColor.DarkBlue);
 
             
-            // Loading log level from file
-            if (!Log.InitLog("Configs/Characters.log", "Characters"))
-                WaitAndExit(Config.ShutDownTimer);
 
             // Loading all configs files
             ConfigMgr.LoadConfigs();
             Config = ConfigMgr.GetConfig<CharacterConfig>();
+
+            // Loading log level from file
+            if (!Log.InitLog("Configs/Characters.log", Config.LogInfo.LogsDir, Config.LogInfo.LogFile))
+                WaitAndExit(Config.ShutDownTimer);
 
             // Starting Remoting Server
             if (!RpcServer.InitRpcServer("CharacterServer", Config.RpcKey, Config.RpcPort))
