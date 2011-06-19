@@ -1,0 +1,17 @@
+= ChamaleonProject -- General information =
+
+Copyright (C) ChamaleonProject  (http://chameleonet.sytes.net)
+Copyright (C) SiennaCore      	(http://www.siennacore.com)
+
+  ChamaleonProject is free software; you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation; either version 2 of the License, or
+  (at your option) any later version.
+
+ChamaleonProject is a Rift game server emulator. It is derived
+from SiennaCore, the Massive Network Game Object Server, and is based on the
+code of that project.
+
+SQL files to create the database can be found in the database directory. Files
+to update your database from an older revision/version can be found in the
+sql/updates directory.
