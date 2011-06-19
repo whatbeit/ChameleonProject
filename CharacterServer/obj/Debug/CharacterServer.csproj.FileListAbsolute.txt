@@ -4,3 +4,9 @@ D:\Escritorio\7Slim\Chameleon\bin\Debug\CharacterServer.pdb
 D:\Escritorio\7Slim\Chameleon\CharacterServer\obj\Debug\ResolveAssemblyReference.cache
 D:\Escritorio\7Slim\Chameleon\CharacterServer\obj\Debug\CharacterServer.exe
 D:\Escritorio\7Slim\Chameleon\CharacterServer\obj\Debug\CharacterServer.pdb
+C:\Program Files (x86)\Git\ChameleonProject\bin\Debug\CharacterServer.exe.config
+C:\Program Files (x86)\Git\ChameleonProject\bin\Debug\CharacterServer.exe
+C:\Program Files (x86)\Git\ChameleonProject\bin\Debug\CharacterServer.pdb
+C:\Program Files (x86)\Git\ChameleonProject\CharacterServer\obj\Debug\ResolveAssemblyReference.cache
+C:\Program Files (x86)\Git\ChameleonProject\CharacterServer\obj\Debug\CharacterServer.exe
+C:\Program Files (x86)\Git\ChameleonProject\CharacterServer\obj\Debug\CharacterServer.pdb

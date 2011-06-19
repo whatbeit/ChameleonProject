@@ -25,7 +25,7 @@ namespace CharacterServer
             Log.Texte("", "`---..,---.,---.,---.,---.", ConsoleColor.Cyan);
             Log.Texte("", "    |||---'|   ||   |,---|", ConsoleColor.Cyan);
             Log.Texte("", "`---'``---'`   '`   '`---^ Core", ConsoleColor.Cyan);
-            Log.Texte("", "http://chameleonet.sytes.net", ConsoleColor.Blue);
+            Log.Texte("", "http://twitter.com/ChameleonGeek", ConsoleColor.Blue);
             Log.Texte("", "-------------------------------", ConsoleColor.DarkBlue);
 
             

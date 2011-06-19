@@ -23,8 +23,6 @@ SET /p user= MySQL Username:
 SET /p pass= MySQL Password: 
 ECHO.
 SET /p world_db= World Database:
-SET /p auth_db= Auth Database:
-SET /p character_db= Character Database: 
 SET port=3306
 SET dumppath=.\dump\
 SET mysqlpath=.\dep\mysql\
@@ -41,18 +39,7 @@ SET local_it=\main_db\locals\italian\
 CLS
 SET v=""
 ECHO.
-ECHO.
-ECHO    1 - Install 4.0.6a World Database and all updates, NOTE! Whole db will be overwritten!
-ECHO.
-ECHO    5 - Install Auth DB, NOTE! Whole auth db will be overwritten! "New Install"
-ECHO.
-ECHO    9 - Install Character DB, NOTE! Whole character db will be overwritten! "New Install"
-ECHO,
-ECHO    L - Apply Locals, "You need to install the world database and updates first."
-ECHO.
-ECHO    W - Backup World Database.
-ECHO    C - Backup Character Database.
-ECHO    U - Import Changeset.
+ECHO    W - UPDATE World Database.
 ECHO.
 ECHO    S - Change your settings
 ECHO.

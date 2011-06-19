@@ -9,3 +9,14 @@ D:\Escritorio\7Slim\Chameleon\WorldServer\obj\Debug\WorldServer.pdb
 D:\Escritorio\7Slim\Chameleon\WorldServer\bin\Debug\BouncyCastle.Crypto.dll
 D:\Escritorio\7Slim\Chameleon\WorldServer\bin\Debug\Org.Mentalis.SecurityServices.dll
 D:\Escritorio\7Slim\Chameleon\WorldServer\bin\Debug\WorldServer.exe.config
+C:\Program Files (x86)\Git\ChameleonProject\WorldServer\bin\Debug\WorldServer.exe.config
+C:\Program Files (x86)\Git\ChameleonProject\WorldServer\bin\Debug\WorldServer.exe
+C:\Program Files (x86)\Git\ChameleonProject\WorldServer\bin\Debug\WorldServer.pdb
+C:\Program Files (x86)\Git\ChameleonProject\WorldServer\bin\Debug\BouncyCastle.Crypto.dll
+C:\Program Files (x86)\Git\ChameleonProject\WorldServer\bin\Debug\Org.Mentalis.SecurityServices.dll
+C:\Program Files (x86)\Git\ChameleonProject\WorldServer\bin\Debug\Shared.dll
+C:\Program Files (x86)\Git\ChameleonProject\WorldServer\bin\Debug\MySql.Data.dll
+C:\Program Files (x86)\Git\ChameleonProject\WorldServer\bin\Debug\Shared.pdb
+C:\Program Files (x86)\Git\ChameleonProject\WorldServer\obj\Debug\ResolveAssemblyReference.cache
+C:\Program Files (x86)\Git\ChameleonProject\WorldServer\obj\Debug\WorldServer.exe
+C:\Program Files (x86)\Git\ChameleonProject\WorldServer\obj\Debug\WorldServer.pdb
