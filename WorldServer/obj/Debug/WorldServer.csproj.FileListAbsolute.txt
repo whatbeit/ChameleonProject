@@ -1,0 +1,11 @@
+D:\Escritorio\7Slim\Chameleon\WorldServer\bin\Debug\WorldServer.exe
+D:\Escritorio\7Slim\Chameleon\WorldServer\bin\Debug\WorldServer.pdb
+D:\Escritorio\7Slim\Chameleon\WorldServer\bin\Debug\Shared.dll
+D:\Escritorio\7Slim\Chameleon\WorldServer\bin\Debug\MySql.Data.dll
+D:\Escritorio\7Slim\Chameleon\WorldServer\bin\Debug\Shared.pdb
+D:\Escritorio\7Slim\Chameleon\WorldServer\obj\Debug\ResolveAssemblyReference.cache
+D:\Escritorio\7Slim\Chameleon\WorldServer\obj\Debug\WorldServer.exe
+D:\Escritorio\7Slim\Chameleon\WorldServer\obj\Debug\WorldServer.pdb
+D:\Escritorio\7Slim\Chameleon\WorldServer\bin\Debug\BouncyCastle.Crypto.dll
+D:\Escritorio\7Slim\Chameleon\WorldServer\bin\Debug\Org.Mentalis.SecurityServices.dll
+D:\Escritorio\7Slim\Chameleon\WorldServer\bin\Debug\WorldServer.exe.config

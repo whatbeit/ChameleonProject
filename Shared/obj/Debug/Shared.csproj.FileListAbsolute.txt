@@ -1,0 +1,5 @@
+D:\Escritorio\7Slim\Chameleon\bin\Debug\Shared.dll
+D:\Escritorio\7Slim\Chameleon\bin\Debug\Shared.pdb
+D:\Escritorio\7Slim\Chameleon\Shared\obj\Debug\ResolveAssemblyReference.cache
+D:\Escritorio\7Slim\Chameleon\Shared\obj\Debug\Shared.dll
+D:\Escritorio\7Slim\Chameleon\Shared\obj\Debug\Shared.pdb

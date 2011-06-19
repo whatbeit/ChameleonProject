@@ -1,0 +1,6 @@
+D:\Escritorio\7Slim\Chameleon\bin\Debug\CharacterServer.exe.config
+D:\Escritorio\7Slim\Chameleon\bin\Debug\CharacterServer.exe
+D:\Escritorio\7Slim\Chameleon\bin\Debug\CharacterServer.pdb
+D:\Escritorio\7Slim\Chameleon\CharacterServer\obj\Debug\ResolveAssemblyReference.cache
+D:\Escritorio\7Slim\Chameleon\CharacterServer\obj\Debug\CharacterServer.exe
+D:\Escritorio\7Slim\Chameleon\CharacterServer\obj\Debug\CharacterServer.pdb
