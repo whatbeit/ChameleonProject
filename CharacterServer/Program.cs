@@ -31,7 +31,7 @@ namespace CharacterServer
             
             // Loading log level from file
             if (!Log.InitLog("Configs/Characters.log", "Characters"))
-                WaitAndExit();
+                WaitAndExit(Config.ShutDownTimer);
 
             // Loading all configs files
             ConfigMgr.LoadConfigs();
@@ -39,37 +39,47 @@ namespace CharacterServer
 
             // Starting Remoting Server
             if (!RpcServer.InitRpcServer("CharacterServer", Config.RpcKey, Config.RpcPort))
-                WaitAndExit();
+                WaitAndExit(Config.ShutDownTimer);
 
             // Creating Remote objects
             new AccountMgr();
             AccountMgr.AccountDB = DBManager.Start(Config.AccountsDB.Total(), ConnectionType.DATABASE_MYSQL, "Accounts");
             if (AccountMgr.AccountDB == null)
-                WaitAndExit();
+                WaitAndExit(Config.ShutDownTimer);
 
             new CharacterMgr();
             CharacterMgr.CharacterDB = DBManager.Start(Config.CharactersDB.Total(), ConnectionType.DATABASE_MYSQL, "Characters");
             if (CharacterMgr.CharacterDB == null)
-                WaitAndExit();
+                WaitAndExit(Config.ShutDownTimer);
 
             new CacheMgr();
             CacheMgr.CharacterDB = DBManager.Start(Config.CharactersDB.Total(), ConnectionType.DATABASE_MYSQL, "Characters");
             if (CacheMgr.CharacterDB == null)
-                WaitAndExit();
+                WaitAndExit(Config.ShutDownTimer);
 
             CharacterMgr.Instance.LoadRealms();
             CharacterMgr.Instance.LoadCreation_Names();
 
             // Listening Client
             if (!TCPManager.Listen<RiftServer>(Config.CharacterServerPort, "CharacterServer"))
-                WaitAndExit();
+                WaitAndExit(Config.ShutDownTimer);
+
+            System.Console.CancelKeyPress += new ConsoleCancelEventHandler(ShutdownEvent);
+
 
             ConsoleMgr.Start();
         }
 
-        static public void WaitAndExit()
+        static public void ShutdownEvent(object sender, EventArgs e)
         {
-            System.Threading.Thread.Sleep(2000);
+            WaitAndExit(Config.ShutDownTimer);
+        }
+
+        static public void WaitAndExit(int waittime)
+        {
+            Log.Info("System", String.Format("Server is shuting down within {0} seconds", waittime / 1000)); // This need fix "TCP"
+            System.Threading.Thread.Sleep(waittime);
+            TCPManager.GetTcp<RiftServer>("Character").Stop();
             Environment.Exit(0);
         }
     }

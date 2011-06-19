@@ -80,8 +80,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Configs\CharacterConfig.cs" />
+    <Compile Include="Console\Console.cs" />
     <Compile Include="Console\CreateAccount.cs" />
     <Compile Include="Console\CreateRealm.cs" />
+    <Compile Include="Console\ShutDown.cs" />
     <Compile Include="NetWork\Authentification\HandshakeVersion.cs" />
     <Compile Include="NetWork\Characters\Character\LobbyCharacterEntry.cs" />
     <Compile Include="NetWork\Characters\Character\LobbyCharacterInfoBase.cs" />

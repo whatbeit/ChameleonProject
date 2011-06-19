@@ -42,6 +42,8 @@ namespace CharacterServer
 
         public bool UseCertificate = false;
 
+        public int ShutDownTimer = 2000;
+
         [aConfigMethod()]
         static public void OnLoad(aConfigAttributes Attributes,aConfig Conf,bool FirstLoad)
         {
@@ -55,7 +57,7 @@ namespace CharacterServer
                 Log.Info("Config", "A configuration file was created : " + Attributes.FileName);
                 Log.Info("Config", "You must configure the server before continuing.");
                 Log.Info("Config", "Press any key to exit");
-                Console.ReadKey();
+                System.Console.ReadKey();
                 Environment.Exit(0);
             }
         }
