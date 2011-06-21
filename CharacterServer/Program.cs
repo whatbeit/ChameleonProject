@@ -20,15 +20,14 @@ namespace CharacterServer
 
         static void Main(string[] args)
         {
-            Log.Texte("", "-------------------------------", ConsoleColor.DarkBlue);
+            Log.Texte("", "[CTRL + C] To shutdown the server.", ConsoleColor.Cyan);
+            Log.Texte("", "-------------------------------", ConsoleColor.Cyan);
             Log.Texte("", ",---.o", ConsoleColor.Cyan);
             Log.Texte("", "`---..,---.,---.,---.,---.", ConsoleColor.Cyan);
             Log.Texte("", "    |||---'|   ||   |,---|", ConsoleColor.Cyan);
             Log.Texte("", "`---'``---'`   '`   '`---^ Core", ConsoleColor.Cyan);
-            Log.Texte("", "http://twitter.com/ChameleonGeek", ConsoleColor.Blue);
-            Log.Texte("", "-------------------------------", ConsoleColor.DarkBlue);
-
-            
+            Log.Texte("", "http://twitter.com/ChameleonGeek", ConsoleColor.Cyan);
+            Log.Texte("", "-------------------------------", ConsoleColor.Cyan);          
 
             // Loading all configs files
             ConfigMgr.LoadConfigs();
@@ -80,7 +79,7 @@ namespace CharacterServer
         {
             Log.Info("System", String.Format("Server is shuting down within {0} seconds", waittime / 1000)); // This need fix "TCP"
             System.Threading.Thread.Sleep(waittime);
-            TCPManager.GetTcp<RiftServer>("Character").Stop();
+            ConsoleMgr.Stop();
             Environment.Exit(0);
         }
     }
