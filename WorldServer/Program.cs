@@ -62,6 +62,7 @@ namespace WorldServer
         static public void WaitAndExit()
         {
             System.Threading.Thread.Sleep(2000);
+            ConsoleMgr.Stop();
             Environment.Exit(0);
         }
     }

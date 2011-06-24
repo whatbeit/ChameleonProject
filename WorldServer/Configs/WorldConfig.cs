@@ -51,6 +51,8 @@ namespace WorldServer
 
         public byte RealmId = 1;
 
+        public int ShutDownTimer = 2000;
+
         public DatabaseInfo WorldDB = new DatabaseInfo();
 
         [aConfigMethod()]
