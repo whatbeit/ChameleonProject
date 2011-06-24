@@ -58,7 +58,7 @@
     <SignManifests>false</SignManifests>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>Shark.ico</ApplicationIcon>
+    <ApplicationIcon>One.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Org.Mentalis.SecurityServices">
@@ -133,6 +133,7 @@
     <None Include="app.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="One.ico" />
     <Content Include="Shark.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

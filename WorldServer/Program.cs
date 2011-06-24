@@ -32,6 +32,10 @@ namespace WorldServer
             ConfigMgr.LoadConfigs();
             Config = ConfigMgr.GetConfig<WorldConfig>();
 
+            // Loading log level from file
+            if (!Log.InitLog("Configs/World.log", Config.LogInfo.LogsDir, Config.LogInfo.LogFile))
+                WaitAndExit();
+
             // Starting Remoting Server
             if (!RpcClient.InitRpcClient("WorldServer", Config.RpcKey,Config.RpcIp, Config.RpcPort))
                 WaitAndExit();

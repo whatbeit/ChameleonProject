@@ -29,6 +29,12 @@ namespace WorldServer
         }
     }
 
+    public class LogConfInfo
+    {
+        public string LogsDir = "Logs";
+        public string LogFile = "World.log";
+    }
+
     [aConfigAttributes("Configs/World.xml")]
     public class WorldConfig : aConfig
     {
@@ -40,6 +46,8 @@ namespace WorldServer
         public string RpcIp = "127.0.0.1";
         public int RpcPort = 6899;
         public string RpcKey = "password";
+
+        public LogConfInfo LogInfo = new LogConfInfo();
 
         public byte RealmId = 1;
 
