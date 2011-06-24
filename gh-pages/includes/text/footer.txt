@@ -1,0 +1,2 @@
+<small>
+<a href="index.php"><font color="#cfb749">Terms of Use</a></font> | <a href="index.php"><font color="#cfb749">Home</a></font> | <a href="index.php"><font color="#cfb749">Privacy Policy</a></small></font>

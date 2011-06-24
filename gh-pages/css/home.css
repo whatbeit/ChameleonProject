@@ -1,0 +1,413 @@
+	#latest_interactive {
+	background: url(../images/site/bg-3_4_panel_repeat_y.png) repeat-y scroll left top;
+	margin: 20px 0 0 0;
+	float: left;
+	}
+
+	#account_manage {
+	background: url(../images/site/bg-3_4_panel_repeat_y.png) repeat-y scroll left top;
+	margin: 20px 0 0 0;
+	float: left;
+	}
+
+	#account_manage_big {
+	background: url(../images/site/bg-3_4_panel_big_repeat_y.png) repeat-y scroll left top;
+	margin: 20px 0 0 0;
+	float: left;
+	}
+
+	#account_register {
+	background: url(../images/site/bg-3_4_panel_repeat_y.png) repeat-y scroll left top;
+	margin: 20px 0 0 0;
+	float: left;
+	}
+
+	#blank {
+	background: url(../images/site/bg-3_4_panel_repeat_y.png) repeat-y scroll left top;
+	margin: 20px 0 0 0;
+	float: left;
+	}
+
+	#faq {
+	background: url(../images/site/bg-3_4_panel_repeat_y.png) repeat-y scroll left top;
+	margin: 20px 0 0 0;
+	float: left;
+	}
+
+	.primary_panel_btm {
+	background: url(../images/site/bg-3_4_panel_btm.png) no-repeat scroll center bottom;
+	padding-bottom: 10px;
+	}
+
+	.primary_panel_btm_big {
+	background: url(../images/site/bg-3_4_panel_big_btm.png) no-repeat scroll center bottom;
+	padding-bottom: 20px;
+	}
+
+	#latest_interactive h2 {
+	background: url(../images/site/h-welcome.png) no-repeat scroll left top;
+	height: 43px;
+	width: 700px;
+	text-indent: -9999px;
+	padding: 0 0 7px 0;
+	}
+
+	#account_manage_big h2 {
+	background: url(../images/site/AccountMangBig.png) no-repeat scroll left top;
+	height: 43px;
+	width: 965px;
+	text-indent: -9999px;
+	padding: 0 0 2px 0;
+	}
+
+	#blank h2 {
+	background: url(../images/site/h-blank.png) no-repeat scroll left top;
+	height: 43px;
+	width: 700px;
+	text-indent: -9999px;
+	padding: 0 0 2px 0;
+	}
+
+	#account_manage h2 {
+	background: url(../images/site/AccountMang.png) no-repeat scroll left top;
+	height: 43px;
+	width: 700px;
+	text-indent: -9999px;
+	padding: 0 0 7px 0;
+	}
+
+	#account_register h2 {
+	background: url(../images/site/AccountRegistertration.png) no-repeat scroll left top;
+	height: 43px;
+	width: 700px;
+	text-indent: -9999px;
+	padding: 0 0 7px 0;
+	}
+
+	#faq h2 {
+	background: url(../images/site/h-FaQ.png) no-repeat scroll left top;
+	height: 43px;
+	width: 700px;
+	text-indent: -9999px;
+	padding: 0 0 7px 0;
+	}
+
+	#latest_interactive h2 a:hover {
+	color: #d6cf6c;
+	}
+
+	#latest_interactive ul {
+	width: 668px;
+	float: left;
+	padding: 0px 16px;
+	}
+
+	#latest_interactive li {
+	list-style: none;
+	float: left;
+	background: url(../images/site/bg-home_project_sep.png) no-repeat scroll right top;
+	margin-right: 10px;
+	padding-right: 12px;
+	}
+
+	#latest_interactive li.last_interactive {
+	margin: 0px;
+	padding: 0px;
+	background: none;
+	}
+
+	#latest_interactive li .project_thumb {
+	background: url(../images/site/bg-home_project_frame.png) no-repeat scroll left top;
+	display: block;
+	height: 103px;
+	width: 178px;
+	padding: 15px;
+	}
+
+	#latest_interactive li .project_thumb img {
+	border-style: none;
+	}
+
+
+	#account_manage_big h2 a:hover {
+	color: #d6cf6c;
+	}
+
+	#account_manage_big ul {
+	width: 668px;
+	float: left;
+	padding: 0px 16px;
+	}
+
+	#account_manage_big li {
+	list-style: none;
+	float: left;
+	background: url(../images/site/bg-home_project_sep.png) no-repeat scroll right top;
+	margin-right: 10px;
+	padding-right: 12px;
+	}
+
+	#account_manage_big li.last_interactive {
+	margin: 0px;
+	padding: 0px;
+	background: none;
+	}
+
+	#account_manage_big li .project_thumb {
+	background: url(../images/site/bg-home_project_frame.png) no-repeat scroll left top;
+	display: block;
+	height: 103px;
+	width: 178px;
+	padding: 15px;
+	}
+
+	#account_manage_big li .project_thumb img {
+	border-style: none;
+	}
+
+
+	#account_manage h2 a:hover {
+	color: #d6cf6c;
+	}
+
+	#account_manage ul {
+	width: 668px;
+	float: left;
+	padding: 0px 16px;
+	}
+
+	#account_manage li {
+	list-style: none;
+	float: left;
+	background: url(../images/site/bg-home_project_sep.png) no-repeat scroll right top;
+	margin-right: 10px;
+	padding-right: 12px;
+	}
+
+	#account_manage li.last_interactive {
+	margin: 0px;
+	padding: 0px;
+	background: none;
+	}
+
+	#account_manage li .project_thumb {
+	background: url(../images/site/bg-home_project_frame.png) no-repeat scroll left top;
+	display: block;
+	height: 103px;
+	width: 178px;
+	padding: 15px;
+	}
+
+	#account_manage li .project_thumb img {
+	border-style: none;
+	}
+
+	#account_register h2 a:hover {
+	color: #d6cf6c;
+	}
+
+	#account_register ul {
+	width: 668px;
+	float: left;
+	padding: 0px 16px;
+	}
+
+	#account_register li {
+	list-style: none;
+	float: left;
+	background: url(../images/site/bg-home_project_sep.png) no-repeat scroll right top;
+	margin-right: 10px;
+	padding-right: 12px;
+	}
+
+	#account_register li.last_interactive {
+	margin: 0px;
+	padding: 0px;
+	background: none;
+	}
+
+	#account_register li .project_thumb {
+	background: url(../images/site/bg-home_project_frame.png) no-repeat scroll left top;
+	display: block;
+	height: 103px;
+	width: 178px;
+	padding: 15px;
+	}
+
+	#account_register li .project_thumb img {
+	border-style: none;
+	}
+
+
+	#faq h2 a:hover {
+	color: #d6cf6c;
+	}
+
+	#faq ul {
+	width: 668px;
+	float: left;
+	padding: 0px 16px;
+	}
+
+	#faq li {
+	list-style: none;
+	float: left;
+	background: url(../images/site/bg-home_project_sep.png) no-repeat scroll right top;
+	margin-right: 10px;
+	padding-right: 12px;
+	}
+
+	#faq li.last_interactive {
+	margin: 0px;
+	padding: 0px;
+	background: none;
+	}
+
+	#faq li .project_thumb {
+	background: url(../images/site/bg-home_project_frame.png) no-repeat scroll left top;
+	display: block;
+	height: 103px;
+	width: 178px;
+	padding: 15px;
+	}
+
+	#faq li .project_thumb img {
+	border-style: none;
+	}
+
+	#blank h2 a:hover {
+	color: #d6cf6c;
+	}
+
+	#blank ul {
+	width: 668px;
+	float: left;
+	padding: 0px 16px;
+	}
+
+	#blank li {
+	list-style: none;
+	float: left;
+	background: url(../images/site/bg-home_project_sep.png) no-repeat scroll right top;
+	margin-right: 10px;
+	padding-right: 12px;
+	}
+
+	#blank li.last_interactive {
+	margin: 0px;
+	padding: 0px;
+	background: none;
+	}
+
+	#blank li .project_thumb {
+	background: url(../images/site/bg-home_project_frame.png) no-repeat scroll left top;
+	display: block;
+	height: 103px;
+	width: 178px;
+	padding: 15px;
+	}
+
+	#blank li .project_thumb img {
+	border-style: none;
+	}
+
+	.project_details {
+	text-align: center;
+	float: left;
+	width: 200px;
+	padding: 0px;
+	margin: 0 4px;
+	}
+
+	.project_details h3 {
+	font-size: 15px;
+	font-weight: normal;
+	background: url(../images/site/bg-city_top_line.png) no-repeat scroll center bottom;
+	margin: 6px 0 0 0;
+	padding: 0 0 10px 0;
+	}
+
+	.project_details p {
+	background: #090909;
+	margin: 0px;
+	color: #9f9f9f;
+	letter-spacing: 0.2em;
+	font: bold 10px Verdana, Arial, Helvetica, sans-serif;
+	padding: 7px 0 9px 0;
+	}
+
+	.small_panel_btm {
+	background: url(../images/site/bg-5col_panel_btm.png) no-repeat scroll center bottom;
+	padding-bottom: 24px;
+	float: left;
+	}
+
+	#sidebar h2 {
+	background: #090909 url(../images/site/realmstatus.png) no-repeat scroll left top;
+	text-indent: -9999px;
+	height: 54px;
+	width: 220px;
+	margin: 0 0 0px;
+	}
+
+	#sidebar h3 {
+	font-size: 14px;
+	text-transform: uppercase;
+	padding: 0 0 5px 0;
+	}
+
+	#sidebar p.author {
+	font-weight: bold;
+	font-size: 13px;
+	margin-top: 5px;
+	}
+
+	#sidebar span {
+	height: 12px;
+	width: 14px;
+	text-indent: -9999px;
+	color: #666666;
+	font: italic 10px Georgia, "Times New Roman", Times, serif;
+	padding-bottom: 2px;
+	}
+
+	#sidebar_dark_container {
+	background: url(../images/site/bg-sidebar_repeat_y_dark.png) repeat-y scroll left top;
+	padding: 20px 0 10px 0;
+	margin: 0 0 10px 0;
+	border-bottom: 1px solid #2E2E2E;
+	}
+
+	#sidebar_btm {
+	background: url(../images/site/bg-sidebar_panel_btm.png) no-repeat scroll left bottom;
+	padding-bottom: 20px;
+	float: left;
+	}
+
+	#sidebar p {
+	font-size: 11px;
+	padding-right: 20px;
+	padding-left: 20px;
+	color: #999999;
+	}
+
+	#statistics {
+	float: right;
+	width: 180px;
+	background: url(../images/site/statistics.png) no-repeat scroll left top;
+	height: 30px;
+	text-indent: -9999px;
+	margin: 12px 20px 0 0;
+	padding: 0px;
+	}
+
+	#statistics a {
+	width: 180px;
+	background: url(../images/site/statistics.png) no-repeat scroll left top;
+	height: 30px;
+	display:block;
+	}
+
+	#statistics a:hover {
+	background: url(../images/site/statistics.png) no-repeat scroll left bottom;
+	}
