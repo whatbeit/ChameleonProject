@@ -9,9 +9,8 @@ Copyright (C) SiennaCore      	(http://www.siennacore.com)
   (at your option) any later version.
 
 ChamaleonProject is a Rift game server emulator. It is derived
-from SiennaCore, the Massive Network Game Object Server, and is based on the
-code of that project.
+from SiennaCore and is based on thecode of that project.
 
-SQL files to create the database can be found in the database directory. Files
+SQL files and WEB files can be found in the downloads of GitHub Repo. Files
 to update your database from an older revision/version can be found in the
-sql/updates directory.
+Tools/DatabaseUpdater directory. And there you can find other helpful tools.
