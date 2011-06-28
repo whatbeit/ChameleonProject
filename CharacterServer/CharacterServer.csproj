@@ -83,8 +83,6 @@
     <Compile Include="Console\Console.cs" />
     <Compile Include="Console\CreateAccount.cs" />
     <Compile Include="Console\CreateRealm.cs" />
-    <Compile Include="Console\GetLogLevel.cs" />
-    <Compile Include="Console\SetLogLevel.cs" />
     <Compile Include="Console\ShutDown.cs" />
     <Compile Include="NetWork\Authentification\HandshakeVersion.cs" />
     <Compile Include="NetWork\Characters\Character\LobbyCharacterEntry.cs" />
