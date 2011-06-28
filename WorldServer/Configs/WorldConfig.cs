@@ -68,7 +68,7 @@ namespace WorldServer
                 Log.Info("Config", "A configuration file was created : " + Attributes.FileName);
                 Log.Info("Config", "You must configure the server before continuing.");
                 Log.Info("Config", "Press any key to exit");
-                Console.ReadKey();
+                System.Console.ReadKey();
                 Environment.Exit(0);
             }
         }

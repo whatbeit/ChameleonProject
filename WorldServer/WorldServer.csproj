@@ -54,6 +54,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Configs\WorldConfig.cs" />
+    <Compile Include="Console\Console.cs" />
     <Compile Include="NetWork\Authentification\WorldAuthenticationRequest.cs" />
     <Compile Include="NetWork\World\Channels\WorldChannelJoinned.cs" />
     <Compile Include="NetWork\World\Channels\WorldChatMessage.cs" />
