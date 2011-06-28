@@ -77,9 +77,9 @@ namespace CharacterServer
 
         static public void WaitAndExit(int waittime)
         {
-            Log.Info("System", String.Format("Server is shuting down within {0} seconds", waittime / 1000)); // This need fix "TCP"
+            Log.Info("System", String.Format("Server is shuting down within {0} seconds", waittime / 1000));
             System.Threading.Thread.Sleep(waittime);
-            ConsoleMgr.Stop();
+            TCPManager.GetTcp<RiftServer>("Character").Stop();
             Environment.Exit(0);
         }
     }
